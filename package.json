@@ -1,0 +1,26 @@
+{
+  "name": "github-download-cli",
+  "version": "0.0.0",
+  "description": "Downloads a github repository via command line",
+  "main": "index.js",
+  "repository": "C4rmond4i/github-download-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marius Haberstock",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "decompress": "^4.0.0",
+    "download": "^5.0.3",
+    "fs-promise": "^2.0.0",
+    "log-helper": "0.0.5",
+    "octonode": "^0.7.9",
+    "progress": "^1.1.8"
+  },
+  "bin": {
+    "ghdl": "./index.js"
+  }
+}
